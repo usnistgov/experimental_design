@@ -74,7 +74,7 @@ df = pd.DataFrame(table)
 Currently, this repository has functionality for fully_factorial, fully_factorial_default, fully_factorial_split_plot, fully_factorial_split_plot_default and fully_factorial_split_plot_interleaved.
 
 # Code Structure
-This repository relies on [simulations.py](./experimental_design/experimental_designs.py) for its functionality, for API style documentation see [documentation](https://pages.nist.gov/experimental_design).
+This repository relies on [experimental_designs.py](./experimental_design/experimental_designs.py) for its functionality, for API style documentation see [documentation](https://pages.nist.gov/experimental_design).
 
 # Example
 An [example](./examples/experimental_designs_example.ipynb) of fully factorial designs with different factors and levels, with and without defaults. Additionally, the example demonstrates multiple whole plot / split plot designs with exclusions.  
