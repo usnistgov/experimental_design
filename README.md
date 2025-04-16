@@ -69,18 +69,18 @@ table = experimental_design.fully_factorial(design_dictionary=design,
 ```python
 df = pd.DataFrame(table)
 ```
-![image](./documentation/Readme_Example_Table.png)
+![image](./docs/Readme_Example_Table.png)
 
 Currently, this repository has functionality for fully_factorial, fully_factorial_default, fully_factorial_split_plot, fully_factorial_split_plot_default and fully_factorial_split_plot_interleaved.
 
 # Code Structure
-This repository relies on [simulations.py](./experimental_design/experimental_designs.py) for its functionality, for API style documentation see [documentation](https://sandersa-nist.github.io/experimental_design/documentation/experimental_design/experimental_designs.html).
+This repository relies on [simulations.py](./experimental_design/experimental_designs.py) for its functionality, for API style documentation see [documentation](https://pages.nist.gov/experimental_design).
 
 # Example
 An [example](./examples/experimental_designs_example.ipynb) of fully factorial designs with different factors and levels, with and without defaults. Additionally, the example demonstrates multiple whole plot / split plot designs with exclusions.  
 
 # API Documentation
-[API Documentation](https://sandersa-nist.github.io/experimental_design/documentation/experimental_design.html) that lands at `__init__.py` and links to the primary submodule `experimental_designs.py`.  
+[API Documentation](https://pages.nist.gov/experimental_design) that lands at `__init__.py` and links to the primary submodule `experimental_designs.py`.  
 
 # Contact
 Aric Sanders [aric.sanders@nist.gov](mailto:aric.sanders@nist.gov)
