@@ -4,7 +4,7 @@ Tools to create and manage design of experiments (DOE) or statistical design of 
 # Installation
 ## Method 1 - Directly from Github
 ```shell
-pip install git+https://github.com/sandersa-nist/experimental_design.git
+pip install git+https://github.com/usnistgov/experimental_design
 ```
 ## Method 2 - Clone then Install
 1. Use your favorite way to clone the repo or download the zip file and extract it.  
